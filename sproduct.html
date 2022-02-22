@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <LINK rel="stylesheet" href="style.css"></LINK>
+
+<style>
+  .small-img-group{
+    display: flex;
+    justify-content: space-between;
+  }
+  .small-img-col{
+    flex-basis: 40%;
+    cursor: pointer;
+  }
+
+  .sproduct select{
+    display: block;
+    padding: 5px 10px;
+  }
+  .sproduct input{ 
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .sproduct input{
+    outline: none;
+  }
+  .Buy-btn{
+  background-color: rgb(42, 109, 87);
+  opacity: 1;
+  transition: 0.3s all;
+  }
+</style>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+    <div class="container">
+        <img src="logo1.jpg" alt="logo" width="100">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="amberr\index1.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="amberr\blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <i class="fa-brands fa-searchengin"></i>
+            <i class="fa-brands fa-shopping-bag"></i>
+          </li>
+          
+      </div>
+    </div>
+  </nav>
+
+<section class="container sproduct my-5 pt-5">
+  <div class="ROW">
+    <div class="col-lg-5 col-md-12 col-12"></div>
+    <img class=" ROW img-fluid w-50 pb-1 " src="shirt1.png" alt="">
+<div class="small-img-group">
+  <div class="small-img-col">
+    <img src="shirt2.png" width-50% class="small-img" alt="">
+  </div>
+
+  <div class="small-img-col">
+    <img src="shirt3.png" width-50% class="small-img" alt="">
+  </div>
+
+  <div class="small-img-col">
+    <img src="shirt4.png" width-50% class="small-img" alt="">
+  </div>
+  
+  
+</div>
+
+    <div class="col-lg-5 col-md-12 col-12">
+      <h6>Home/T-Shirt</h6>
+      <h3>Men's Fashion T-Shirt</h3>
+      <h2>$39.00</h2>
+      <select class="my-3">
+      <option >Select Size</option>
+      <option >XL</option>
+      <option >XXL</option>
+      <option >SMALL</option>
+      <option >LARGE</option>
+    </select>
+        <input type="number" value="1">
+
+      <button class="Buy-btn">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="my-5 pb-5">
+  <div class="container text-center mt-5 py-5">
+    <h3> Related Products</h3>
+    <hr class="mx-auto">
+    Here you can check out our new products with fair price on Amber.
+  </div>
+  <div class="row mx-auto container-fluid"> 
+    
+    
+    <div class="product text-centercol-lg-3 col-md-4 col-12">
+     <img class="img-fluid w-50 h-50 mb-3" src="
+     featured/sport2.png" alt="">
+     <div class="star"></div>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+
+     <h5 class="p-name"> Sport Shoes</h5>
+   <H4 class="p-price"> $92.00</H4>
+   <button class="buy-btn"> Buy Now</button>
+   </div>
+
+   <div class="product text-centercol-lg-3 col-md-4 col-12">
+     <img class="img-fluid w-50 h-50 mb-3" src="featured/bag.png" alt="">
+     <div class="star"></div>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+
+     <h5 class="p-name"> Bag</h5>
+   <H4 class="p-price"> $55.00</H4>
+   <button class="buy-btn"> Buy Now</button>
+   </div>
+
+   <div class="product text-centercol-lg-3 col-md-4 col-12">
+     <img class="img-fluid w-50 h-50 mb-3" src="featured/hat.png" alt="">
+     <div class="star"></div>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+     <i class="fas  fa-star"></i>
+
+     <h5 class="p-name"> Cap</h5>
+   <H4 class="p-price"> $20.00</H4>
+   <button class="buy-btn"> Buy Now</button>
+   </div>
+
+  </div>
+
+</section>
+  
+  <div class="row container mx-auto pt-5">
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+      <img class="w-25 h-25" src="logo1.jpg"  alt="">
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolores animi, excepturi ut dolor unde provident possimus dolorem veniam sapiente pariatur cumque, quae consequatur error dolorum saepe deleniti ipsum ipsa?</p>
+    </div>
+
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+      <h5 class="pb-2">Featured</h5>
+      <ul class="text-uppercase list-unstyled">
+        <li><a href="#">men</a></li>
+        <li><a href="#">women</a></li>
+        <li><a href="#">girls</a></li>
+        <li><a href="#">boys</a></li>
+        <li><a href="#">new arrivals</a></li>
+        <li><a href="#">shoes</a></li>
+        <li><a href="#">watches</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+      <h5 class="pb-2">Contact Us</h5>
+      <div>
+        <h6 class="text-uppercase">Address</h6>
+        <p>abc STREET NAME, CITY, COUNTRY
+        </p>
+      </div>
+
+      <div>
+        <h6 class="text-uppercase">Phone</h6>
+        <p> 0123456789
+        </p>
+      </div>
+      <div>
+        <h6 class="text-uppercase">Email</h6>
+        <p> amber@gmail.com
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+      <h5 class="pb-2">Instagram</h5>
+      <div class="row" >
+        <img class="img-fluid w-25 h-100 m-2" src="insta2.png" alt="">
+        <img class="img-fluid w-25 h-100 m-2" src="ins1.pmg.jpg" alt="">
+        <img class="img-fluid w-25 h-100 m-2" src="insta1.png" alt="">
+        <img class="img-fluid w-25 h-100 m-2" src="insta4.jpg" alt="">
+        <img class="img-fluid w-25 h-100 m-2" src="indta5.png" alt="">
+      </div>
+    </div>  
+    </div>
+    
+ <div class="copyright mt-5">
+   <div class="row container mx-auto">
+     <div class="col-lg-3 col-md-6 col-12">
+       <img class="w-75 h-75" src="amberr/card1.png" alt="">
+     </div>
+     <div class="col-lg-5 col-md-6 col-12 text-nowrap">
+      <p> amber eCommerce @ 2022. All Rights Reserved</p>
+    </div>
+    <div class="col-lg-4 col-md-6 col-12">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+   </div>
+ </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
